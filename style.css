@@ -3,6 +3,33 @@
    margin: 0rem;
    box-sizing: border-box;
 }
+.fixedIcon{
+   position: fixed;
+   z-index: 2;
+   right: 2rem;
+   top: 35rem;
+}
+.fixedIcon i{
+   color: rgb(229, 234, 240);
+   font-size: 14px;
+   line-height: 14px;
+   font-weight: 400;
+   background-color: rgb(93, 55, 100);
+   padding: 1rem;
+   border-radius: 5rem;
+}
+.fixedIcon i:hover{
+   color: rgb(229, 234, 240);
+   font-size: 14px;
+   line-height: 14px;
+   font-weight: 400;
+   background-color: rgb(93, 55, 100);
+   padding: 1rem;
+   border-radius: 5rem;
+   -webkit-box-shadow: 0px 0px 18px 3px #5D3764; 
+box-shadow: 0px 0px 18px 3px #5D3764;
+   
+}
 #first{
    background-image: url(images/Banner-home-shop.jpg);
    position: relative;
@@ -470,6 +497,19 @@
    border-radius: 35px;
    border-color: transparent;
    color: rgb(67, 73, 89);
+   border: none;
+   outline: none;
+
+}
+#fifth .general .text .email input:active{
+   padding: 1.5rem 20rem 1.5rem 2rem;
+   text-align: left;
+   font-size: 15px;
+   font-weight: 400;
+   border-radius: 35px;
+   border: none;
+   outline: none;
+   color: rgb(67, 73, 89);
 
 }
 #fifth .general .text .input{
@@ -607,6 +647,27 @@ justify-content: space-between;
 }
 #seventh .general .imagesSection .box img{
    width: 100%;
+   height: 100%;
+}
+
+.overlay{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background-color: #434959;
+   top: 0;
+   left: 0;
+   opacity: 0.5;
+}
+.overlay:hover{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background-color: #7d8497;
+   top: 0;
+   left: 0;
+   opacity: 0.5;
+   cursor: pointer;
 }
 
 #eightth .general{
@@ -881,20 +942,30 @@ footer{
    padding: 1rem 12rem 1rem 2rem;
    text-align: left;
    border-radius: 5rem;
-   border-color: transparent;
+   border: none;
+   outline: none;
  }
+ #tenth .general .boxTwoPartRight input:active{
+   background-color: white;
+   padding: 1rem 12rem 1rem 2rem;
+   text-align: left;
+   border-radius: 5rem;
+   border: none;
+   outline: none;
+ }
+
  #tenth .general .boxTwoPartRight .btn i{
     position: absolute;
-    top: 8.9rem;
-    right: 1.5rem;
+    top: 8.75rem;
+    right: 1.6rem;
     font-size: 40px;
     color: #337ab7;
     transition-duration: 0.3s;
  }
  #tenth .general .boxTwoPartRight .btn i:hover{
    position: absolute;
-   top: 8.9rem;
-   right: 1.5rem;
+   top: 8.75rem;
+   right: 1.6rem;
    font-size: 40px;
    color: #60c6ce;
 }
