@@ -1,0 +1,929 @@
+*{
+   padding: 0rem;
+   margin: 0rem;
+   box-sizing: border-box;
+}
+#first{
+   background-image: url(images/Banner-home-shop.jpg);
+   position: relative;
+   z-index: 1;
+   
+}
+#first .general2::after{
+   content: 'FP3 Masks';
+   top: 8.5rem;
+   left: 3rem;
+   font-size: 10rem;
+ color: #3b98c4;
+   font-weight: 700;
+     position: absolute;
+     z-index: -1;
+  }
+#first .general{
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   background-color: transparent;
+   padding: 1rem 2rem 1rem;
+}
+
+#first .general .navigation a{
+   padding-left: 1rem;
+   margin-left: 1.4rem;
+   margin-top: 1.5rem;
+   display: inline-block;
+   font-size: 14px;
+   font-weight: 400;
+   letter-spacing: 1px;
+   line-height: 33px;
+   transition-duration: 0.3s;
+   color: white;
+   text-decoration: none;
+}
+#first .general .appointment a{
+   background-color: white;
+   border-radius: 20px;
+   padding: 1rem 2rem;
+   display: inline-block;
+   margin: 0.5rem 2rem 0rem 0rem;
+   color: rgb(37 37 37);
+   font-size: 20px;
+   font-weight: bold;
+   letter-spacing: 0.5px;
+   transition-duration: 0.4s;
+   text-decoration: none;
+}
+
+#first .general2{
+   display: flex;
+   padding: 0rem 3rem 12rem;
+  align-items: center;
+  
+}
+#first .general2 .left-box img{
+   width: 100%;
+   padding-top: 2rem;
+   
+}
+#first .general2 .left-box{
+   width: 45%;
+}
+#first .general2 .right-box{
+   width: 54%;
+   padding-left: 0.2rem;
+   margin-bottom: 100px;
+
+}
+#first .general2 .right-box h1{
+   font-size: 36px;
+   line-height: 40px;
+   font-weight: bold;
+   color: white;
+   font-family: 'Jost', sans-serif;
+}
+#first .general2 .right-box h1{
+   font-size: 36px;
+   line-height: 40px;
+   font-weight: 700;
+   padding: 8rem 18rem 0rem 3rem;
+   color: white;
+   font-family: 'Jost', sans-serif;
+}
+#first .general2 .right-box p{
+   font-size: 15px;
+   line-height: 22.5px;
+   font-weight: 400;
+   padding: 2rem 7rem 0rem 3rem;
+   color: rgb(255 255 255);
+   font-family: 'Poppins', sans-serif;
+   
+}
+#first .general2 .right-box a{
+   font-size: 14px;
+   line-height: 22.5px;
+   letter-spacing: 0.5px;
+   text-decoration: none;
+   font-weight: 600;
+   padding: 1rem 2rem 1rem 2rem;
+   background-color:rgb(0, 107, 166);
+   border-radius: 30px;
+   vertical-align: middle;
+   color: rgb(255 255 255);
+   font-family: 'Poppins', sans-serif;
+   margin: 2rem 0rem 0rem 3rem;
+   display: inline-block;
+   
+}
+#first .general2 .right-box a:hover{
+   font-size: 14px;
+   line-height: 22.5px;
+   letter-spacing: 0.5px;
+   text-decoration: none;
+   font-weight: 600;
+   padding: 1rem 2rem 1rem 2rem;
+   background-color:rgb(202, 226, 240);
+   border-radius: 30px;
+   vertical-align: middle;
+   color: rgb(255 255 255);
+   font-family: 'Poppins', sans-serif;
+   margin: 2rem 0rem 0rem 3rem;
+   display: inline-block;
+   
+}
+#second{
+   padding: 10rem 6rem;
+}
+#second .heading{
+   position: relative;
+}
+#second .heading h2{
+   text-align: center;
+   font-size: 34px;
+   font-weight: 700;
+   font-family: 'Jost', sans-serif;
+   line-height: 27px;
+   color: rgb(34 34 34);
+   margin-bottom: 40px;
+
+}
+#second .heading h2::after{
+   content: 'Masks';
+   top: -3.5rem;
+   left: 21rem;
+   font-size: 10rem;
+   color: #f7f7f7;
+   font-weight: 700;
+     position: absolute;
+     z-index: -1;
+  }
+#second .imagesAndTitles{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+}
+#second .imagesAndTitles .box{
+   width: 32%;
+   margin-bottom: 2rem;
+   background-color: #f2f2f2;
+   border-top-color: white;
+   border-radius: 1rem;
+
+  } 
+
+#second .imagesAndTitles .box .image img{
+   width: 100%;
+   border-top-left-radius: 1rem;
+   border-top-right-radius: 1rem;
+
+  }
+  #second .imagesAndTitles .box .text .left a{
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+    font-family: 'Jost', sans-serif;
+    color: rgb(17 17 17);
+    text-decoration: none;
+  }
+  #second .imagesAndTitles .box .text .left h3{
+   font-size: 17px;
+   font-weight: 500;
+   line-height: 22px;
+   font-family: 'Poppins', sans-serif;
+   color: rgb(34 52 65);
+   text-decoration: none;
+ }
+ #second .imagesAndTitles .box .text{
+    display: flex;
+    padding-bottom: 2rem;
+}
+#second .imagesAndTitles .box .text .right{
+   padding: 2rem 0rem 0rem 5rem;
+   color: rgb(140, 140, 140);
+}
+#second .imagesAndTitles .box .text .left{
+   margin-left: 2rem;
+}
+#second .imagesAndTitles .box .image .icon{
+   background-color: white;
+   position: absolute;
+   top: 1rem;
+   right: 1rem;
+   padding: 1rem 0.5rem;
+   border-radius: 2rem;
+}
+#second .imagesAndTitles .box .image .icon i{
+   display: block;
+   padding: 0.7rem 0rem;
+   color: rgb(34, 52, 65);
+   font-size: 12px;
+}
+#second .imagesAndTitles .box .image{
+     position: relative;  
+ }
+ #second .footing{
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 18.62px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: rgb(0, 107, 166);
+    text-decoration: none;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    margin-left: 30rem;
+}
+#second .footing:hover{
+   font-size: 14px;
+   font-weight: 600;
+   letter-spacing: 0.5px;
+   line-height: 18.62px;
+   text-align: center;
+   font-family: 'Poppins', sans-serif;
+   color: white;
+   background-color: rgb(202, 226, 240);
+   text-decoration: none;
+   border-radius: 2rem;
+   padding: 1rem 2rem;
+   margin-left: 30rem;
+}
+#third .general{
+   background-image: url(images/quality-banner.jpg);
+   height: 28rem;
+   
+}
+#third .general .text{
+   padding: 10rem;
+   position: relative;
+   z-index: 0;
+}
+#third .general .text h2::after{
+   content: 'Quality';
+   font-size: 10rem;
+   font-weight: 700;
+   letter-spacing: 2px;
+  position: absolute;
+  z-index: -1;
+  top: 7rem;
+  left: 3rem;
+  color: rgba(52, 229, 150, 255);
+  font-family: 'Poppins', sans-serif;
+}
+#third .general .text p{
+   font-size: 15px;
+   font-weight: 400;
+   line-height: 22px;
+   color: rgb(255 255 255);
+   width: 25rem;
+   margin-bottom: 2rem;
+   text-align: center;
+}
+#third .general .text h2{
+   margin-bottom: 20px;
+   font-size: 36px;
+   font-weight: 700;
+   line-height: 40px;
+   color: rgb(255 255 255);
+   width: 30rem;
+   margin-left: -2rem;
+}
+#third .general .text a{
+   background-color: white;
+   color: rgb(0, 107, 166);
+   text-decoration: none;
+   padding: 1rem 1.5rem;
+   border-radius: 25px;
+   font-weight: 600;
+}
+
+#third .general .text .button{
+   margin-left: 7rem;
+}
+#fourth .heading{
+   padding-top: 13rem;
+   text-align: center;
+   position: relative;
+   
+}
+#fourth .heading::after{
+   content: 'Latest';
+   top: 4rem;
+   left: 20rem;
+   font-size: 12rem;
+   color: #f7f7f7;
+   font-weight: 700;
+     position: absolute;
+     z-index: -1;
+  }
+#fourth .heading h2{
+ font-size: 36px;
+ font-weight: 700;
+ color: rgb(34 34 34);
+   
+}
+#fourth .imagesAndTitles{
+   padding-top: 25px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   
+}
+#fourth .imagesAndTitles .box{
+   width: 32%;
+   background-color: #f2f2f2;
+   margin-bottom: 24px;
+   border-radius: 1rem;
+   position: relative;
+
+}
+#fourth .imagesAndTitles .box .top img{
+  width: 100%;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  cursor: pointer;
+
+}
+#fourth{
+   padding: 0rem 6rem;
+}
+#fourth .imagesAndTitles .box .bottom{
+   display: flex;
+   padding-bottom: 2rem;
+ justify-content: space-between;
+
+ }
+#fourth .imagesAndTitles .box .bottom .left h2{
+   font-size: 21px;
+    line-height: 32px;
+    font-weight: 400;
+    font-family: 'Jost', sans-serif;
+    color: rgb(17 17 17);
+    text-decoration: none;
+ }
+ #fourth .imagesAndTitles .box .bottom .left p{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(34 52 65);
+  text-decoration: none;
+}
+#fourth .imagesAndTitles .box .bottom{
+   display: flex;
+   padding: 0rem 1rem 2rem;
+}
+#fourth .imagesAndTitles .box .bottom .right{
+  padding: 2rem 0rem 0rem 2rem;
+  color: rgb(140, 140, 140);
+}
+#fourth .imagesAndTitles .box .bottom .left{
+  margin-left: 2rem;
+}
+#fourth .imagesAndTitles .box .icon{
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 2rem 0.5rem 1rem;
+}
+#fourth .imagesAndTitles .box .icon i{
+   display: block;
+   margin-bottom: 1rem;
+   color: rgb(32, 52, 65);
+   font-size: 12px;
+ }
+ #fourth .footer{
+   padding: 2rem 29.9rem 10rem;
+ }
+ #fourth .footer a{
+   background-color: rgb(0, 107, 166);
+   font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 18.62px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-decoration: none;
+    border-radius: 2rem;
+    padding: 1rem 1rem;
+ }
+ #fourth .footer a:hover{
+   background-color: rgb(119, 180, 212);
+   font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 18.62px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-decoration: none;
+    border-radius: 2rem;
+    padding: 1rem 1rem;
+ }
+#fifth .general{
+   background-image: url(images/subscribe-bg.jpg);
+   text-align: center;
+}
+#fifth .general .text{
+   position: relative;
+   padding: 12rem 0rem;
+   z-index: 0;
+}
+#fifth .general .text h2::after{
+   content: 'Subscribe';
+   z-index: -1;
+   top: 9.5rem;
+   left: 23rem;
+   font-weight: 400;
+   font-size: 8.5rem;
+   color: #5f5e5c;
+   font-weight: 700;
+     position: absolute;
+     font-family: 'Poppins', sans-serif;
+}
+#fifth .general .text h2{
+   font-size: 32px;
+   font-weight: 700;
+   line-height: 36px;
+   margin-bottom: 10px;
+   color: white;
+   
+}
+#fifth .general .text p{
+   font-size: 15px;
+   font-weight: 500;
+   line-height: 23px;
+   margin: 10px 110px 10px;
+   color: white;
+}
+#fifth .general .text .email{
+   margin-top: 2rem;
+}
+#fifth .general .text .email input{
+   padding: 1.5rem 20rem 1.5rem 2rem;
+   text-align: left;
+   font-size: 15px;
+   font-weight: 400;
+   border-radius: 35px;
+   border-color: transparent;
+   color: rgb(67, 73, 89);
+
+}
+#fifth .general .text .input{
+  position: relative;
+}
+
+#fifth .general .text .input button {
+   position: absolute;
+   top: 0.5rem;
+   right: 25.5rem;
+   border-radius: 2rem;
+   background-color: rgb(0, 107, 166);
+   border-color: transparent;
+   color: white;
+   padding: 1rem 2rem;
+
+}
+#fifth .general .text .input button:hover{
+   position: absolute;
+   top: 0.5rem;
+   right: 25.5rem;
+   border-radius: 2rem;
+   background-color: rgb(66, 146, 189);
+   border-color: transparent;
+   color: white;
+   padding: 1rem 2rem;
+
+}
+#fifth .general .text .input a{
+   text-decoration: none;
+   color: white;
+   font-size: 15px;
+}
+
+#sixth .general{
+   padding: 15rem 6rem;
+}
+#sixth .general .heading{
+   position: relative;
+   text-align: center;
+    z-index: 0;
+}
+#sixth .general .heading h2::after{
+   content: 'Categories';
+   position: absolute;
+   top: -3rem;
+   left: 12rem;
+   font-size: 9rem;
+   z-index: -1;
+   color: #f7f7f7;
+   font-weight: 700;
+   font-family: 'Poppins', sans-serif;
+}
+#sixth .general .heading h2{
+   margin-bottom: 20px;
+   font-size: 32px;
+   font-weight: 700;
+   line-height: 36px;
+}
+#sixth .general .heading p{
+   margin-bottom: 30px;
+   font-size: 15px;
+   font-weight: 400;
+   line-height: 22.5px;
+   color: rgb(119, 119, 119);
+}
+#sixth .general .imagesSection .top{
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+
+}
+
+#sixth .general .imagesSection .top .box{
+   width: 32%;
+   margin-bottom: 1rem;
+}
+#sixth .general .imagesSection .top .box img{
+  width: 100%;
+  border-radius: 0.5rem;
+}
+#sixth .general .imagesSection .bottom{
+   display: flex;
+   flex-wrap: nowrap;
+justify-content: space-between;
+
+}
+#sixth .general .imagesSection .bottom .box{
+   width: 48%;
+}
+#sixth .general .imagesSection .bottom .box img{
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+#seventh .general{
+   padding: 0rem 6rem 13rem;
+}
+#seventh .general .heading{
+   position: relative;
+   text-align: center;
+    z-index: 0;
+}
+#seventh .general .heading h2::after{
+   content: 'Partner';
+   position: absolute;
+   top: -3rem;
+   left: 18rem;
+   font-size: 9rem;
+   z-index: -1;
+   color: #f7f7f7;
+   font-weight: 700;
+   font-family: 'Poppins', sans-serif;
+}
+#seventh .general .heading h2{
+   margin-bottom: 20px;
+   font-size: 32px;
+   font-weight: 700;
+   line-height: 36px;
+}
+#seventh .general .heading p{
+   margin-bottom: 30px;
+   font-size: 15px;
+   font-weight: 400;
+   line-height: 22.5px;
+   color: rgb(119, 119, 119);
+}
+#seventh .general .imagesSection{
+    display: flex;
+    justify-content: space-between;
+}
+#seventh .general .imagesSection .box{
+      width: 10%;
+      position: relative;
+}
+#seventh .general .imagesSection .box img{
+   width: 100%;
+}
+
+#eightth .general{
+   padding: 0rem 6rem;
+   display: flex;
+   justify-content: space-between;
+ 
+}
+#eightth .general .box{
+   width: 48%;
+   padding-top: 14rem;
+}
+#eightth .general .box .image{
+   width: 100%;
+}
+#eightth .general .box .text .sections{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+#eightth .general .box .sections .box1{
+   width: 48%;
+}
+#eightth .general .box .sections .box1 h3{
+font-size: 22px;
+color:rgb(67, 73, 89); 
+font-family: 'Jost', sans-serif;
+font-weight: 700;
+line-height: 25px;
+margin-bottom: 10px;
+margin-top: 12px;
+}
+#eightth .general .box .sections .box1 p{
+   font-size: 15px;
+   color:rgb(67, 73, 89); 
+   font-family: 'Jost', sans-serif;
+   font-weight: 400;
+   line-height: 22px;
+  
+   }
+   #eightth .general .box .sections .box1 img{
+      width: 20%;
+     
+      }
+#eightth .general .box .text .heading{
+   padding-bottom: 4rem;
+    position: relative;
+    z-index: 0;
+}
+#eightth .general .box .text .heading h2::after{
+  content: 'Benefit';
+  position: absolute;
+  left: -1rem;
+  top: -3rem;
+  z-index: -1;
+   font-weight: 400;
+   font-size: 9.5rem;
+   color: #edf1f7;
+   font-weight: 700;
+     font-family: 'Poppins', sans-serif;
+   }
+#eightth .general .box .text .heading h2{
+font-weight: 700;
+line-height: 42px;
+   font-size: 34px;
+   font-family: 'Jost', sans-serif;
+   color: #3d404f;
+}
+#eightth{
+   background-color: #f5f7fb;
+}
+#nineth .general{
+   padding: 13rem 6rem 0rem;
+}
+#nineth .general .heading{
+   text-align: center;
+   position: relative;
+   margin-bottom: 4rem;
+}
+#nineth .general .heading h2{
+   margin-bottom: 10px;
+   font-size: 32px;
+   font-weight: 700;
+   line-height: 36px;
+   font-family:'Jost', sans-serif;
+ 
+}
+#nineth .general .heading h2::after{
+   position: absolute;
+   content: 'News';
+   top: -3rem;
+   left: 24rem;
+   font-size: 9rem;
+   z-index: -1;
+   color: #f7f7f7;
+   font-weight: 700;
+   font-family: 'Poppins', sans-serif;
+}
+#nineth .general .heading p{
+   padding: 0rem 20rem;
+   color: #777;
+   font-size: 15px;
+   font-weight: 400;
+   line-height: 22.5px;
+   font-family: 'Poppins', sans-serif;
+ 
+}
+#nineth .general .imagesAndTitles{
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+ 
+}
+#nineth .general .imagesAndTitles .box{
+   width: 32%;
+ 
+}
+#nineth .general .imagesAndTitles .box .top img{
+   width: 100%;
+   border-radius: 0.5rem;
+ 
+}
+#nineth .general .imagesAndTitles .box .bottom{
+  margin: 2rem 3rem 0rem;
+ 
+}
+#nineth .general .imagesAndTitles .box .bottom h5{
+ font-size: 13px;
+ font-family: 'Poppins', sans-serif;
+  line-height: 13px;
+  font-weight: 500;
+  color: #4DB0E1;
+  margin-bottom: 1.5rem;
+ }
+ #nineth .general .imagesAndTitles .box .bottom .fst{
+   font-family:'Jost', sans-serif;
+font-size: 26px;
+line-height: 32px;
+font-weight: 600;
+color: #3d404f;
+text-decoration: none;
+   }
+   #nineth .general .imagesAndTitles .box .bottom .scnd{
+      font-family: 'Poppins', sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      color: rgba(34, 52, 65, 1);
+      text-decoration: none;
+}
+#nineth .general .imagesAndTitles .box .bottom .scnd:hover{
+   font-family: 'Poppins', sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 24px;
+   color: #337ab7;
+   text-decoration: none;
+
+}
+#nineth .general .imagesAndTitles .box .bottom .scnd i{
+   color: #337ab7;
+}
+#nineth .general .imagesAndTitles .box .bottom p{
+   padding: 15px 0rem 24px;
+   font-family: 'Poppins', sans-serif;
+   font-size: 14px;
+   font-weight: 500;
+   line-height: 22px;
+   color: #606060;
+
+}
+footer{
+   
+}
+#tenth{
+   background-image: url(images/Clinika-footer2-scaled.jpg);
+
+}
+#tenth .general{
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   padding: 20rem 6rem 5rem;
+    
+}
+
+#tenth .general .boxTwoPartLeft{
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   width: 53%;
+   border-right: 1px solid white;
+   padding-top: 2.5rem;
+}
+
+#tenth .general .boxTwoPartLeft .box1{
+    width: 32%;
+}
+#tenth .general .boxTwoPartLeft .box1 h3{
+   font-family: 'Jost', sans-serif;
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 24px;
+   color: #fff;
+}
+#tenth .general .boxTwoPartLeft .box1 ul{
+   margin-top: 2rem;
+}
+#tenth .general .boxTwoPartLeft .box1 li{
+   list-style: none;   
+}
+#tenth .general .boxTwoPartLeft .box1 li a{
+   font-size: 15px;
+   line-height: 25px;
+   color: #fff;
+   text-decoration: none;
+   font-family: 'Poppins', sans-serif;
+}
+#tenth .general .boxTwoPartRight{
+   width: 43%;
+   padding-left: 5rem;
+   position: relative;
+   padding-top: 2.5rem;
+
+}
+#tenth .general .boxTwoPartRight h3{
+   font-family: 'Jost', sans-serif;
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 24px;
+   color: #fff;
+   margin-bottom: 2rem;
+}
+#tenth .general .boxTwoPartRight p{
+   font-size: 15px;
+   line-height: 25px;
+   color: #fff;
+   text-decoration: none;
+   font-family: 'Poppins', sans-serif;
+   margin-bottom: 1rem;
+}
+#tenth .general .boxTwoPartRight .icon{
+   display: flex;
+   align-items: center;
+   margin-top: 2rem;
+}
+#tenth .general .boxTwoPartRight .icon h3{
+   margin-bottom: 0rem !important;
+}
+#tenth .general .boxTwoPartRight .icon a{
+   padding-left: 1rem;
+
+}
+#tenth .general .boxTwoPartRight .icon i{
+  color: white;
+  font-size: 15px;
+   text-align: center;
+   padding: 0.2rem;
+}
+#tenth .general .boxTwoPartRight .icon i:hover{
+   padding-left: 1rem;
+   color: white;
+   font-size: 15px;
+   background-color: #337ab7;
+   text-align: center;
+   padding: 0.2rem;
+   border-radius: 5rem;
+ }
+ #tenth .general .boxTwoPartRight input{
+   background-color: white;
+   padding: 1rem 12rem 1rem 2rem;
+   text-align: left;
+   border-radius: 5rem;
+   border-color: transparent;
+ }
+ #tenth .general .boxTwoPartRight .btn i{
+    position: absolute;
+    top: 8.9rem;
+    right: 1.5rem;
+    font-size: 40px;
+    color: #337ab7;
+    transition-duration: 0.3s;
+ }
+ #tenth .general .boxTwoPartRight .btn i:hover{
+   position: absolute;
+   top: 8.9rem;
+   right: 1.5rem;
+   font-size: 40px;
+   color: #60c6ce;
+}
+ #tenth .general2{
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   padding: 0rem 6rem 1rem;
+   align-items: center;
+ }
+ #tenth .general2 .left{
+    width: 28%;
+
+ }
+ #tenth .general2 .right p{
+   font-size: 15px;
+   line-height: 25px;
+   color: #fff;
+   text-decoration: none;
+   font-family: 'Poppins', sans-serif;
+   margin-bottom: 1rem;
+
+}
+#tenth .general2 .left img{
+   width: 40%;
+
+}
+ #tenth .general2 .right{
+   width: 68%;
+   text-align: right;
+
+}
